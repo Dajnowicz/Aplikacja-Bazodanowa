@@ -1,0 +1,214 @@
+
+
+
+#okno{
+    -fx-background-image: url("tlo2.jpg");
+}
+
+#a_user{
+    	-fx-font-size: 25px;
+    -fx-text-fill: white;
+    -fx-font-family: Impact, Charcoal, sans-serif;
+}
+
+#a_dodaj_button {
+  -fx-background-image: url("dodaj_b.png");  
+-fx-text-box-border: #284a81;
+    -fx-control-inner-background: #284a81;
+    -fx-shadow-highlight-color: transparent;  
+}
+#a_usun_button {
+  -fx-background-image: url("usun_b.png");    
+  -fx-text-box-border: #284a81;
+    -fx-control-inner-background: #284a81;
+    -fx-shadow-highlight-color: transparent;
+}
+#a_edytuj_button {
+  -fx-background-image: url("edytuj_b.png");  
+-fx-text-box-border: #284a81;
+    -fx-control-inner-background: #284a81;
+    -fx-shadow-highlight-color: transparent;  
+}
+#a_odczyt_button {
+  -fx-background-image: url("odczytaj_b.png");    
+  -fx-text-box-border: #284a81;
+    -fx-control-inner-background: #284a81;
+    -fx-shadow-highlight-color: transparent;
+}#a_users_button {
+  -fx-background-image: url("uzy_b.png");   
+  -fx-text-box-border: #284a81;
+    -fx-control-inner-background: #284a81;
+    -fx-shadow-highlight-color: transparent;
+}#wyloguj_button {
+  -fx-background-image: url("wyloguj_b.png");   
+  -fx-text-box-border: #284a81;
+    -fx-control-inner-background: #284a81;
+    -fx-shadow-highlight-color: transparent;
+}
+
+#b_tab_button {
+  -fx-background-image: url("tabele_b.png");  
+-fx-text-box-border: #284a81;
+    -fx-control-inner-background: #284a81;
+    -fx-shadow-highlight-color: transparent;  
+}
+#b_kw_button {
+  -fx-background-image: url("kwar_b.png");    
+  -fx-text-box-border: #284a81;
+    -fx-control-inner-background: #284a81;
+    -fx-shadow-highlight-color: transparent;
+}
+#b_proc_button {
+  -fx-background-image: url("proc_b.png");  
+-fx-text-box-border: #284a81;
+    -fx-control-inner-background: #284a81;
+    -fx-shadow-highlight-color: transparent;  
+}
+#b_wyz_button {
+  -fx-background-image: url("wyz_b.png");    
+  -fx-text-box-border: #284a81;
+    -fx-control-inner-background: #284a81;
+    -fx-shadow-highlight-color: transparent;
+}#b_wyj_button {
+  -fx-background-image: url("wyjdz_b.png");   
+  -fx-text-box-border: #284a81;
+    -fx-control-inner-background: #284a81;
+    -fx-shadow-highlight-color: transparent;
+}
+#b_poz_button {
+  -fx-background-image: url("pozos_b.png");   
+  -fx-text-box-border: #284a81;
+    -fx-control-inner-background: #284a81;
+    -fx-shadow-highlight-color: transparent;
+}
+/*tabele*/
+#ks {
+  -fx-background-image: url("klasa.png");   
+  -fx-text-box-border: #284a81;
+    -fx-control-inner-background: #284a81;
+    -fx-shadow-highlight-color: transparent;
+}
+#ts {
+  -fx-background-image: url("ts.png");   
+  -fx-text-box-border: #284a81;
+    -fx-control-inner-background: #284a81;
+    -fx-shadow-highlight-color: transparent;
+}
+#ps {
+  -fx-background-image: url("ps.png");   
+  -fx-text-box-border: #284a81;
+    -fx-control-inner-background: #284a81;
+    -fx-shadow-highlight-color: transparent;
+}
+#s {
+  -fx-background-image: url("s.png");   
+  -fx-text-box-border: #284a81;
+    -fx-control-inner-background: #284a81;
+    -fx-shadow-highlight-color: transparent;
+}
+#sl {
+  -fx-background-image: url("sl.png");   
+  -fx-text-box-border: #284a81;
+    -fx-control-inner-background: #284a81;
+    -fx-shadow-highlight-color: transparent;
+}
+#k {
+  -fx-background-image: url("k.png");   
+  -fx-text-box-border: #284a81;
+    -fx-control-inner-background: #284a81;
+    -fx-shadow-highlight-color: transparent;
+}
+#p {
+  -fx-background-image: url("p.png");   
+  -fx-text-box-border: #284a81;
+    -fx-control-inner-background: #284a81;
+    -fx-shadow-highlight-color: transparent;
+}
+#l {
+  -fx-background-image: url("l.png");   
+  -fx-text-box-border: #284a81;
+    -fx-control-inner-background: #284a81;
+    -fx-shadow-highlight-color: transparent;
+}
+#pl {
+  -fx-background-image: url("pl.png");   
+  -fx-text-box-border: #284a81;
+    -fx-control-inner-background: #284a81;
+    -fx-shadow-highlight-color: transparent;
+}
+
+#log_error{
+    
+     -fx-font-size: 20px;
+    -fx-text-fill: red;
+    -fx-stroke-width: 2;
+  
+}
+#tabels{
+   -fx-font-size: 14px;
+   -fx-text-fill: black;
+    -fx-font-family: "Impact";
+}
+
+#user_error{
+    
+     -fx-font-size: 17px;
+    -fx-text-fill: red;
+    -fx-stroke-width: 1;
+    
+}
+
+#naglowek_admin_napis {
+    -fx-font-size: 30px;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-family: "Impact";
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+#NAG_ADMIN {
+    -fx-font-size: 42px;
+   -fx-font-family: "Impact";
+   -fx-fill: #818181;
+   -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+#users{
+  -fx-font-size: 14px;
+   -fx-text-fill: black;
+    -fx-font-family: "Impact";
+}
+
+
+#user_succes{
+    
+     -fx-font-size: 17px;
+    -fx-text-fill: green;
+    -fx-stroke-width: 1;
+    
+}
+
+
+
+#log_button{
+    -fx-background-image: url("log_button.png");
+    -fx-text-box-border: #284a81;
+    -fx-control-inner-background: #284a81;
+    -fx-shadow-highlight-color: transparent;
+}
+
+#menu_button{
+    -fx-background-image: url("menu_button.png");
+}
+
+#p1{
+    -fx-background-image: url("p1.png");
+}
+
+#p2{
+    -fx-background-image: url("p2.png");
+}
+
+
+#panel_dane{
+    -fx-background-image: url("panel_login.png");  
+}
+
